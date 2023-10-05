@@ -1,0 +1,176 @@
+/* fonts */
+/* font-family: 'Pacifico', cursive; */
+/* font-family: 'Crimson Text', serif; */
+
+
+
+body {
+    font-family: 'Crimson Text', serif;
+    background-color: #edf2f4;
+    margin: 0;
+}
+
+#heading {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.253)), url("./assests/images/7xm.xyz674426.jpg");
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading>* {
+    color: white;
+    margin: 0;
+}
+
+#heading-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 5rem;
+    text-align: center;
+
+}
+
+#heading-description {
+    font-size: 2rem;
+
+}
+
+
+h4 {
+    font-size: 2rem;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container>p {
+    width: 50%;
+    text-align: center;
+    text-wrap: balance;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+hr {
+    border: dashed #eddcd2 2px;
+    width: 10%;
+    margin: 5rem auto;
+}
+
+#row-title {
+    font-weight: 600;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template: 1fr / 0.5fr 1fr;
+    max-width: 50%;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.image {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.row>img {
+    margin-top: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+#contact {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+#contact-me {
+    padding: 10px 20px;
+    background-color: #358f80;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#contact-me:hover {
+    background-color: #14746f;
+}
+
+.project-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    background-color: #d5bdaf;
+    border-radius: 20px;
+}
+
+.col>img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.col>p {
+    text-align: center;
+}
+
+.col>a {
+    padding: 10px 40px;
+    background-color: #358f80;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.col>a:hover {
+    background-color: #14746f;
+    color: whitesmoke;
+}
+
+ul {
+    margin: 0;
+}
+
+footer {
+    background-color: #adb5bd;
+    height: 13vh;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer>p {
+    font-size: 1rem;
+    position: relative;
+    top: 1.5rem;
+    color: #e5e5e5;
+}
+
+footer>a {
+    text-decoration: none;
+    margin-right: 20px;
+    position: relative;
+    top: 1rem;
+    color: #dee2e6;
+    font-size: 1.2rem;
+}
+
+footer>a:hover {
+    color: #495057;
+}
+
+
