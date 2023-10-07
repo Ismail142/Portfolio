@@ -1,0 +1,39 @@
+@media (max-width: 435px) {
+    .container>p {
+        width: 90%;
+        text-align: start;
+    }
+}
+
+@media (max-width: 489px) {
+    .skills-grid {
+        grid-template: repeat(2, 1fr) / repeat(3, minmax(40px, 100px));
+    }
+
+}
+
+@media (max-width: 375px) {
+    #heading-title {
+        font-size: 4rem;
+    }
+
+    .col>img {
+        width: 360px;
+    }
+
+    .col {
+        width: 360px;
+    }
+
+}
+
+
+@media (max-width: 240px) {
+    #heading-title {
+        font-size: 2rem;
+    }
+    .skills-grid {
+        grid-template: repeat(2, 1fr) / repeat(1, minmax(40px, 100px));
+    }
+
+}
