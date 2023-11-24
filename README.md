@@ -1,2 +1,2 @@
 # Portfolio
-With this project I created my own personal portfolio site from scratch
+After learning the basics of html and css. I apply those on building this astounding porfolio site.
